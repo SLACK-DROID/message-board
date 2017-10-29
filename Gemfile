@@ -57,3 +57,8 @@ gem 'kaminari'
 
 # pry-byebug
 gem 'pry-byebug', group: :development
+
+# Heroku 設定
+group :production do
+  gem 'pg'
+end
